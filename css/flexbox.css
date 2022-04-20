@@ -1,0 +1,63 @@
+.cabecalhoPrincipal .container {
+display: flex;
+align-items: center;
+justify-content: space-between;
+/* Alinha ao centro e dá um espaço entre os itens*/
+}
+
+.cabecalhoPrincipal-nav {
+    display: flex;
+    /* alinha os itens um ao lado do outro */
+}
+
+.rodapePrincipal-patrocinadores .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodapePrincipal-patrocinadores-list {
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+    margin-right: 25px;
+}
+
+ .rodapePrincipal-navMap-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 260px;
+ }
+
+ .subtitulo {
+     display: flex;
+     justify-content: center;
+ }
+
+ .conteudoPrincipal-cursos  {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     height: 800px;
+ }
+
+ .conteudoPrincipal-cursos-link {
+     width: 20%;
+ }
+
+ .cabecalhoPrincipal-nav   {
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     font-size: 20px;
+ }
+
+ .cabecalhoPrincipal-titulo {
+    font-size: 40px;
+    border: solid 1px grey;
+    border-radius: 10%;
+    padding: 10px;
+    opacity: .7;
+    background-color: #f7f4e8;
+ }
